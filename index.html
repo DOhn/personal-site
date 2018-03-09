@@ -3,6 +3,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/darkly/bulmaswatch.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
   	<link rel="stylesheet" href="css/style.css">
     <script  src="js/index.js"></script>
     <title>Daniel Ohn - The Man, The Myth, The Legend</title>
@@ -12,8 +13,8 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="">
-          <h1 class="title is-1">Daniel Ohn</h1><br></br>
-          <h2 class="subtitle is-5" id="subtext">Professional Sadboi</h2>
+          <h1 class="title is-1">Daniel Ohn</h1>
+          <!-- <h2 class="subtitle is-5" id="subtext">Professional Sadboi</h2> -->
         </a>
         <div class="navbar-burger burger" data-target="navbarMenu">
           <span></span>
@@ -42,15 +43,61 @@
 
 
 
-    <section class="section">
+  <section class="hero is-secondary is-large">
+    <div class="hero-body">
       <div class="container">
-        <h1 class="title">
-          Hello World
-        </h1>
-        <p class="subtitle">
-          Site is coming <strong>soon</strong>!
-        </p>
+        <nav class="level">
+          <div class="level-item has-text-centered">
+            <div>
+                <img class="image is-circle" src="img/mugshot.jpg">
+                <p class="title">Daniel Ohn</p>
+                <p class="heading">The man, the myth, the legend</p>
+            </div>
+          </div>
+        </nav>
+        <nav class="level">
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Github</p>
+              <p class="title"><a href="https://github.com/DOhn" target="_blank"><i class="fab fa-github fa-2x"></i></a></p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Linkedin</p>
+              <p class="title"><a href="https://www.linkedin.com/in/daniel-ohn-920320109/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a></p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Codepen</p>
+              <p class="title"><a href="https://codepen.io/DOhn/#" target="_blank"><i class="fab fa-codepen fa-2x"></i></a></p>
+            </div>
+          </div>
+        </nav>
+    </div>
+  </section>
+
+  <section class="hero is-warning is-bold is-large">
+    <h1 class="title has-text-centered" id="projects">Projects</h1>
+    <div class="hero-body">
+      <div class="content">
+        <div class="columns">
+          <div class="column">
+              <h1 class="title">Weather App</h1>
+              <h2 class="subtitle">A basic application built using Bootstrap, jQuery, and DarkSky API.</h2>
+              <h2 class="subtitle">Gets the geolocation of the user and displays the current weather conditions in their region.</h2>
+              <a href="https://codepen.io/DOhn/pen/ZyLBGq" target="_blank"><i id="icon" class="fab fa-codepen fa-2x is-pulled-right"></i></a>
+              <a href="https://github.com/DOhn/weather-app" target="_blank"><i id="icon" class="fab fa-github fa-2x is-pulled-right"></i></a>
+          </div>
+          <div class="column is-6">
+            <figure class="image is-16by9" id="project-img">
+              <img src="img/web-app.png">
+            </figure>
+          </div>
+        </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
 </html>
