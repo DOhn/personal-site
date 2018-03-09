@@ -3,3 +3,27 @@
   padding-top: 30px;
   padding-left: 2%;
 }
+
+.level {
+  width: 100%;
+}
+
+.is-circle {
+  border-radius: 50%;
+  width: 480px;
+  height: 480px;
+}
+
+#projects {
+  padding-top: 25px;
+}
+
+#project-img {
+  max-width: 1024px;
+  max-height: 720px;
+}
+
+#icon {
+  align: right;
+  padding-left: 10px;
+}
