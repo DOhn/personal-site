@@ -9,91 +9,97 @@
     <title>Daniel Ohn - The Man, The Myth, The Legend</title>
   </head>
   <body>
-
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="">
-          <h1 class="title is-1">Daniel Ohn</h1>
-          <!-- <h2 class="subtitle is-5" id="subtext">Professional Sadboi</h2> -->
-        </a>
-        <div class="navbar-burger burger" data-target="navbarMenu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+    <section class="hero is-dark is-medium">
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <!-- <a class="navbar-item">
+              </a> -->
+              <span class="navbar-burger burger" data-target="navbarMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div class="navbar-menu" id="navbarMenu">
+              <div class="navbar-end">
+                <a class="navbar-item">
+                  Home
+                </a>
+                <a class="navbar-item" href="#projects">
+                  Projects
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item" href="Resume.pdf" target="_blank">
+                  Resume
+                </a>
+              </div>
+            </div>
+          </div>
+          </nav>
       </div>
 
-      <div class="navbar-menu" id="navbarMenu">
-        <div class="navbar-end">
-          <a class="navbar-item">
-            Home
-          </a>
-          <a class="navbar-item">
-            Projects
-          </a>
-          <a class="navbar-item">
-            Contact Me
-          </a>
-          <a class="navbar-item">
-            Resume
-          </a>
-        </div>
-    </div>
-  </nav>
-
-
-
-  <section class="hero is-secondary is-large">
-    <div class="hero-body">
-      <div class="container">
-        <nav class="level">
-          <div class="level-item has-text-centered">
-            <div>
-                <img class="image is-circle" src="img/mugshot.jpg">
-                <p class="title">Daniel Ohn</p>
-                <p class="heading">The man, the myth, the legend</p>
+      <div class="hero-body">
+        <div class="container">
+          <nav class="level">
+            <div class="level-item has-text-centered">
+              <div>
+                  <img class="image is-circle" src="img/mugshot.jpg">
+                  <p class="title">Daniel Ohn</p>
+                  <p class="heading">professional sadboi</p>
+              </div>
+            </div>
+          </nav>
+          <nav class="level">
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Github</p>
+                <p class="title"><a href="https://github.com/DOhn" target="_blank"><i class="fab fa-github fa-2x"></i></a></p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Linkedin</p>
+                <p class="title"><a href="https://www.linkedin.com/in/daniel-ohn-920320109/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a></p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Codepen</p>
+                <p class="title"><a href="https://codepen.io/DOhn/#" target="_blank"><i class="fab fa-codepen fa-2x"></i></a></p>
+              </div>
+            </div>
+          </nav>
+        <div class="content" id="project-content">
+          <h1 class="title has-text-centered" id="projects">Projects</h1>
+          <div class="columns">
+            <div class="column">
+                <h1 class="is-2 title">Weather App</h1>
+                <h2 class="is-4 subtitle">A basic application built using Bootstrap, jQuery, and DarkSky API.</h2>
+                <h2 class="is-4 subtitle">Gets the geolocation of the user and displays the current weather conditions in their region.</h2>
+                <a href="https://codepen.io/DOhn/pen/ZyLBGq" target="_blank"><i id="icon-right" class="fab fa-codepen fa-2x is-pulled-right"></i></a>
+                <a href="https://github.com/DOhn/weather-app" target="_blank"><i id="icon-right" class="fab fa-github fa-2x is-pulled-right"></i></a>
+            </div>
+            <div class="column is-6">
+              <figure class="image is-16by9" id="project-img">
+                <img src="img/web-app.png">
+              </figure>
             </div>
           </div>
-        </nav>
-        <nav class="level">
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">Github</p>
-              <p class="title"><a href="https://github.com/DOhn" target="_blank"><i class="fab fa-github fa-2x"></i></a></p>
+          <div class="columns">
+            <div class="column is-6">
+              <figure class="image is-16by9" id="project-img">
+                <img src="img/wiki-search.png">
+              </figure>
             </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">Linkedin</p>
-              <p class="title"><a href="https://www.linkedin.com/in/daniel-ohn-920320109/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a></p>
+            <div class="column">
+              <h1 class="is-2 title">Wiki Search</h1>
+              <h2 class="is-4 subtitle">A basic site built using Bootstrap, jQuery, and Wikipedia API.</h2>
+              <h2 class="is-4 subtitle">Allows the user to search for keywords as it displays related wikipedia articles, along with letting users get a random article.</h2>
+              <a href="https://codepen.io/DOhn/pen/wyEagL" target="_blank"><i id="icon-left" class="fab fa-codepen fa-2x is-pulled-left"></i></a>
+              <a href="https://github.com/DOhn/wiki-search" target="_blank"><i id="icon-left" class="fab fa-github fa-2x is-pulled-left"></i></a>
             </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">Codepen</p>
-              <p class="title"><a href="https://codepen.io/DOhn/#" target="_blank"><i class="fab fa-codepen fa-2x"></i></a></p>
-            </div>
-          </div>
-        </nav>
-    </div>
-  </section>
-
-  <section class="hero is-warning is-bold is-large">
-    <h1 class="title has-text-centered" id="projects">Projects</h1>
-    <div class="hero-body">
-      <div class="content">
-        <div class="columns">
-          <div class="column">
-              <h1 class="title">Weather App</h1>
-              <h2 class="subtitle">A basic application built using Bootstrap, jQuery, and DarkSky API.</h2>
-              <h2 class="subtitle">Gets the geolocation of the user and displays the current weather conditions in their region.</h2>
-              <a href="https://codepen.io/DOhn/pen/ZyLBGq" target="_blank"><i id="icon" class="fab fa-codepen fa-2x is-pulled-right"></i></a>
-              <a href="https://github.com/DOhn/weather-app" target="_blank"><i id="icon" class="fab fa-github fa-2x is-pulled-right"></i></a>
-          </div>
-          <div class="column is-6">
-            <figure class="image is-16by9" id="project-img">
-              <img src="img/web-app.png">
-            </figure>
           </div>
         </div>
       </div>
