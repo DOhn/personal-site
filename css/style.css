@@ -15,7 +15,8 @@
 }
 
 #projects {
-  padding-top: 25px;
+  padding-top: 8%;
+  padding-bottom: 5%;
 }
 
 #project-img {
@@ -23,7 +24,22 @@
   max-height: 720px;
 }
 
-#icon {
-  align: right;
+#icon-right {
   padding-left: 10px;
+}
+
+#icon-left {
+  padding-right: 10px;
+}
+
+#project-content {
+  padding: 5%;
+}
+
+.columns {
+  padding-bottom: 10%;
+}
+
+i {
+  color: #1fdeb8;
 }
