@@ -42,7 +42,7 @@ body {
 }
 
 #project-content {
-  padding: 5%;
+  padding: 7%;
 }
 
 .columns {
@@ -50,7 +50,8 @@ body {
 }
 
 .column{
-  padding-bottom: 5%;
+  padding-bottom: 8%;
+  margin-bottom: 0 !important;
 }
 
 i {
