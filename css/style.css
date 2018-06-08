@@ -8,18 +8,12 @@ body {
   padding-left: 2%;
 }
 
-.level {
-  width: auto;
-}
-
 .is-circle {
   border-radius: 50%;
 }
 
 .img-container {
-  align: center;
-  margin: auto;
-  width: 50%;
+  width: auto;
   height: auto;
 }
 
@@ -46,7 +40,7 @@ body {
 }
 
 .columns {
-  padding-bottom: 10%;
+  padding-bottom: auto;
 }
 
 .column{
